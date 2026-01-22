@@ -28,3 +28,8 @@ figure figcaption {
     padding-top: 0.75rem;
     margin-top: 2rem;
 }
+
+.navbar-brand img {
+    height: 40px;
+    width: auto;
+}
