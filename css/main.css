@@ -1,0 +1,30 @@
+/* a. Underline section headings (<h2>) */
+section > h2 {
+    text-decoration: underline;
+}
+
+/* b. Article images: double “thumbnail” style border */
+article img {
+    border: 3px double #6c757d; /* grey double border */
+    padding: 2px;
+}
+
+/* c. Image captions: gray, italic, centered */
+figure {
+    text-align: center;         /* centers image + caption */
+}
+
+figure figcaption {
+    color: #6c757d;             /* muted gray */
+    font-style: italic;
+}
+
+/* d. Footer: top border, centered, italic, smaller text */
+.footer-custom {
+    border-top: 1px solid #6c757d;
+    text-align: center;
+    font-style: italic;
+    font-size: 0.9rem;          /* slightly smaller than default */
+    padding-top: 0.75rem;
+    margin-top: 2rem;
+}
